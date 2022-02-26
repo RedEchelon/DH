@@ -479,7 +479,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 	armthrust: {
 		num: 292,
 		accuracy: 100,
-		basePower: 15,
+		basePower: 25,
 		category: "Physical",
 		name: "Arm Thrust",
 		pp: 20,
@@ -2308,7 +2308,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 	cometpunch: {
 		num: 4,
 		accuracy: 85,
-		basePower: 18,
+		basePower: 25,
 		category: "Physical",
 		isNonstandard: "Past",
 		name: "Comet Punch",
@@ -2917,8 +2917,8 @@ export const Moves: {[moveid: string]: MoveData} = {
 	},
 	cut: {
 		num: 15,
-		accuracy: 95,
-		basePower: 50,
+		accuracy: 100,
+		basePower: 60,
 		category: "Physical",
 		name: "Cut",
 		pp: 30,
@@ -2926,7 +2926,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		flags: {contact: 1, protect: 1, mirror: 1},
 		secondary: null,
 		target: "normal",
-		type: "Normal",
+		type: "Grass",
 		contestType: "Cool",
 	},
 	darkestlariat: {
@@ -4829,7 +4829,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 	firepledge: {
 		num: 519,
 		accuracy: 100,
-		basePower: 80,
+		basePower: 100,
 		basePowerCallback(target, source, move) {
 			if (['grasspledge', 'waterpledge'].includes(move.sourceEffect)) {
 				this.add('-combine');
@@ -7048,7 +7048,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 	grasspledge: {
 		num: 520,
 		accuracy: 100,
-		basePower: 80,
+		basePower: 100,
 		basePowerCallback(target, source, move) {
 			if (['waterpledge', 'firepledge'].includes(move.sourceEffect)) {
 				this.add('-combine');
@@ -11763,7 +11763,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 	needlearm: {
 		num: 302,
 		accuracy: 100,
-		basePower: 60,
+		basePower: 100,
 		category: "Physical",
 		isNonstandard: "Past",
 		name: "Needle Arm",
@@ -14923,7 +14923,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 	shadowclaw: {
 		num: 421,
 		accuracy: 100,
-		basePower: 70,
+		basePower: 90,
 		category: "Physical",
 		name: "Shadow Claw",
 		pp: 15,
@@ -16269,7 +16269,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 	spikecannon: {
 		num: 131,
 		accuracy: 100,
-		basePower: 20,
+		basePower: 25,
 		category: "Physical",
 		isNonstandard: "Past",
 		name: "Spike Cannon",
@@ -16613,7 +16613,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 	steamroller: {
 		num: 537,
 		accuracy: 100,
-		basePower: 65,
+		basePower: 75,
 		category: "Physical",
 		isNonstandard: "Past",
 		name: "Steamroller",
@@ -18919,7 +18919,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 	waterpledge: {
 		num: 518,
 		accuracy: 100,
-		basePower: 80,
+		basePower: 100,
 		basePowerCallback(target, source, move) {
 			if (['firepledge', 'grasspledge'].includes(move.sourceEffect)) {
 				this.add('-combine');

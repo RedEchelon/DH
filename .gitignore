@@ -13,3 +13,5 @@ build.exe
 logs/lastbattle.txt
 config/chat-plugins/mafia-logs.json
 logs/errors.txt
+data/.DS_Store
+.DS_Store
