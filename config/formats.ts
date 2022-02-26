@@ -3460,9 +3460,9 @@ export const Formats: FormatList = [
 		banlist: ['Uber'],
 	},
 	{
-		name: "[Gen 7] Custom Game",
+		name: "[Gen 5] Custom Game",
 
-		mod: 'gen7',
+		mod: 'gen5',
 		searchShow: false,
 		debug: true,
 		maxLevel: 9999,
