@@ -43,10 +43,6 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		baseStats: {hp: 65, atk: 80, def: 40, spa: 45, spd: 80, spe: 75},
 	},
-	pidgeot: {
-		inherit: true,
-		baseStats: {hp: 83, atk: 80, def: 75, spa: 70, spd: 70, spe: 91},
-	},
 	pikachu: {
 		inherit: true,
 		baseStats: {hp: 35, atk: 55, def: 30, spa: 50, spd: 40, spe: 90},
