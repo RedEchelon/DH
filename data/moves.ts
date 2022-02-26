@@ -16890,7 +16890,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 	strength: {
 		num: 70,
 		accuracy: 100,
-		basePower: 80,
+		basePower: 75,
 		category: "Physical",
 		name: "Strength",
 		pp: 15,
@@ -16898,7 +16898,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		flags: {contact: 1, protect: 1, mirror: 1},
 		secondary: null,
 		target: "normal",
-		type: "Normal",
+		type: "Rock",
 		contestType: "Tough",
 	},
 	strengthsap: {

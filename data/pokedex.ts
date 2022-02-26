@@ -378,7 +378,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		num: 18,
 		name: "Pidgeot",
 		types: ["Normal", "Flying"],
-		baseStats: {hp: 83, atk: 80, def: 75, spa: 70, spd: 70, spe: 101},
+		baseStats: {hp: 99, atk: 96, def: 75, spa: 70, spd: 70, spe: 102},
 		abilities: {0: "Keen Eye", 1: "Tangled Feet", H: "Big Pecks"},
 		heightm: 1.5,
 		weightkg: 39.5,
