@@ -35,6 +35,9 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		maleOnlyHidden: true,
 	},
+    pidgeot: {
+        inherit: true,
+    }
 	butterfree: {
 		inherit: true,
 		baseStats: {hp: 60, atk: 45, def: 50, spa: 80, spd: 80, spe: 70},

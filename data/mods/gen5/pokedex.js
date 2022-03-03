@@ -30,6 +30,9 @@ let BattlePokedex = {
 		inherit: true,
 		types: ["Normal"],
 	},
+    pidgeot: {
+        inherit: true,
+    },
 	clefable: {
 		inherit: true,
 		types: ["Normal"],
