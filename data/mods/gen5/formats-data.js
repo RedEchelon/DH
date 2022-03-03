@@ -93,12 +93,6 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomBattleMoves: ["roost", "bravebird", "heatwave", "return", "workup", "uturn"],
 		tier: "NFE",
 	},
-	pidgeot: {
-		inherit: true,
-		randomBattleMoves: ["roost", "bravebird", "pursuit", "heatwave", "return", "workup", "uturn"],
-		tier: "NU",
-		doublesTier: "DUU",
-	},
 	rattata: {
 		randomBattleMoves: ["facade", "flamewheel", "suckerpunch", "uturn"],
 		tier: "LC",
