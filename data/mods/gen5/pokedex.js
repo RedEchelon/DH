@@ -70,6 +70,10 @@ let BattlePokedex = {
 		inherit: true,
 		baseStats: {hp: 80, atk: 110, def: 130, spa: 55, spd: 65, spe: 45},
 	},
+    primeape: {
+        inherit: true,
+        baseStats: {hp: 65, atk: 110, def: 60, spa: 60, spd: 70, spe: 110},
+    },
 	mrmime: {
 		inherit: true,
 		types: ["Psychic"],
