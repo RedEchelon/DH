@@ -72,7 +72,7 @@ let BattlePokedex = {
 	},
     primeape: {
         inherit: true,
-        baseStats: {hp: 65, atk: 110, def: 60, spa: 60, spd: 70, spe: 110},
+        baseStats: {hp: 65, atk: 115, def: 60, spa: 60, spd: 70, spe: 110},
     },
 	mrmime: {
 		inherit: true,
