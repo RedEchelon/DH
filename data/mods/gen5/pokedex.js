@@ -4,7 +4,7 @@
 let BattlePokedex = {
 	butterfree: {
 		inherit: true,
-		baseStats: {hp: 60, atk: 45, def: 50, spa: 80, spd: 80, spe: 70},
+		baseStats: {hp: 60, atk: 45, def: 50, spa: 95, spd: 80, spe: 90},
 	},
 	beedrill: {
 		inherit: true,

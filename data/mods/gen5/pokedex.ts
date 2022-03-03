@@ -37,11 +37,11 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
     pidgeot: {
         inherit: true,
-                baseStats: {hp: 99, atk: 96, def: 75, spa: 70, spd: 70, spe: 102},
+            baseStats: {hp: 99, atk: 96, def: 75, spa: 70, spd: 70, spe: 102},
     },
 	butterfree: {
 		inherit: true,
-		baseStats: {hp: 60, atk: 45, def: 50, spa: 80, spd: 80, spe: 70},
+		baseStats: {hp: 60, atk: 45, def: 50, spa: 95, spd: 80, spe: 90},
 	},
 	beedrill: {
 		inherit: true,
