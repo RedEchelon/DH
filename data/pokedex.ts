@@ -1391,7 +1391,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	primeape: {
 		num: 57,
 		name: "Primeape",
-		types: ["Fighting"],
+		types: ["Fighting", "Flying"],
 		baseStats: {hp: 65, atk: 115, def: 60, spa: 60, spd: 70, spe: 110},
 		abilities: {0: "Vital Spirit", 1: "Anger Point", H: "Defiant"},
 		heightm: 1,
