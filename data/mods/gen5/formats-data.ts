@@ -233,11 +233,6 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	mankey: {
 		tier: "LC",
 	},
-	primeape: {
-		randomBattleMoves: ["closecombat", "encore", "icepunch", "punishment", "stoneedge", "uturn"],
-		tier: "NU",
-		doublesTier: "DUU",
-	},
 	growlithe: {
 		tier: "LC",
 	},
