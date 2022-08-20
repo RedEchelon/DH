@@ -16888,17 +16888,24 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Fairy",
 	},
 	strength: {
-		num: 70,
+		num: 80,
 		accuracy: 100,
-		basePower: 75,
+		basePower: 85,
 		category: "Physical",
 		name: "Strength",
-		pp: 15,
+		pp: 10,
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1},
-		secondary: null,
+		secondary: {
+			chance: 10,
+			self: {
+				boosts: {
+					atk: 1,
+				},
+			},
+		},
 		target: "normal",
-		type: "Rock",
+		type: "Normal",
 		contestType: "Tough",
 	},
 	strengthsap: {
