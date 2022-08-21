@@ -464,8 +464,8 @@ export const Moves: {[moveid: string]: MoveData} = {
 	},
 	aquatail: {
 		num: 401,
-		accuracy: 90,
-		basePower: 90,
+		accuracy: 85,
+		basePower: 100,
 		category: "Physical",
 		name: "Aqua Tail",
 		pp: 10,
@@ -12659,10 +12659,10 @@ export const Moves: {[moveid: string]: MoveData} = {
 	poisontail: {
 		num: 342,
 		accuracy: 100,
-		basePower: 50,
+		basePower: 80,
 		category: "Physical",
 		name: "Poison Tail",
-		pp: 25,
+		pp: 10,
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1},
 		critRatio: 2,
@@ -12917,7 +12917,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 	poweruppunch: {
 		num: 612,
 		accuracy: 100,
-		basePower: 40,
+		basePower: 50,
 		category: "Physical",
 		name: "Power-Up Punch",
 		pp: 20,
