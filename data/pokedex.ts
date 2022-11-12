@@ -5855,8 +5855,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	flygon: {
 		num: 330,
 		name: "Flygon",
-		types: ["Ground", "Dragon"],
-		baseStats: {hp: 80, atk: 110, def: 80, spa: 100, spd: 80, spe: 100},
+		types: ["Bug", "Dragon"],
+		baseStats: {hp: 90, atk: 110, def: 85, spa: 130, spd: 85, spe: 100},
 		abilities: {0: "Levitate"},
 		heightm: 2,
 		weightkg: 82,
