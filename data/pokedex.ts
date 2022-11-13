@@ -8013,7 +8013,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	electivire: {
 		num: 466,
 		name: "Electivire",
-		types: ["Electric"],
+		types: ["Electric", "Fighting"],
 		genderRatio: {M: 0.75, F: 0.25},
 		baseStats: {hp: 75, atk: 123, def: 67, spa: 95, spd: 85, spe: 95},
 		abilities: {0: "Motor Drive", H: "Vital Spirit"},
